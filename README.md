@@ -7,7 +7,7 @@ Kyle, Rojan, Henok
 ------------------
 Kyle:
 -----
-Rojan: <<Constructor>>, __add__ (union), __sub__ (intersect)
+Rojan: <Constructor>, __add__ (union), __sub__ (intersect)
 ------------------------------------------------------------
 Henok: 
 ---------
