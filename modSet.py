@@ -54,7 +54,7 @@ class CustomSet:
             if ch not in self._setList:
                 union.append(ch)
 
-        return union
+        return CustomSet(union)
 
         
     
@@ -75,7 +75,7 @@ class CustomSet:
         for num in self._setList:
             if num in newSet.getSetList():
                 intersection.append(num)
-        return intersection
+        return CustomSet(intersection)
 
 
 
