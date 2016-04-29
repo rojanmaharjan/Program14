@@ -25,6 +25,16 @@ class CustomSet:
         self._setList = newList
 
 
+    def getSetList(self):
+        """
+        Description: retrives self._setList
+        Pre-Condition: None
+        Post-Condtion: None
+        """
+
+        return self._setList
+
+
 
 
     def __add__(self, newSet):
