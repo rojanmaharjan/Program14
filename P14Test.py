@@ -16,11 +16,11 @@ print("Custome Set: " , set3)
 print("\n")
 
 
-union = set1.unionSet(set2)
+union = set1.__add__(set2)
 
 print("Union Set: ",union)
 print("\n")
 
-intersection = set2.interSectionSet(set1)
+intersection = set2.setIntersection(set1)
 
 print("Intersection Set: ",intersection)

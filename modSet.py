@@ -40,7 +40,7 @@ class CustomSet:
 
 
 
-    def unionSet(self, newSet):
+    def __add__(self, newSet):
         """
         Description: creates a union set by adding two different set
         Pre-Condition: newSet is type set
@@ -62,7 +62,7 @@ class CustomSet:
 
         
 
-    def interSectionSet(self, newSet):
+    def setIntersection(self, newSet):
         """
         Description: creates a intersection set by adding only common character
                      from two different set
